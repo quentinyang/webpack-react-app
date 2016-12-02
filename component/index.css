@@ -1,0 +1,18 @@
+.app{
+    margin: 0;
+}
+
+.header{
+
+}
+.content{
+    font-size:12px;
+}
+
+.app .autocomplete{
+    border: 1px solid #ccc;
+}
+
+.app :global(._modules-autocomplete-autocomplete-autocomplete){
+    border: 3px dashed #ccc;
+}
