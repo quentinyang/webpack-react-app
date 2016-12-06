@@ -35,3 +35,26 @@ webpack-react-app/
 1. `app`目录是`webpack-react`的默认构建入口。
 1.  `package.json`里面的依赖跟`webpack-react`一致，并且多了一项`webpack-react`。
 1. TODO
+
+# 运维部署
+
+## 新环境部署
+
+部署依赖[pm2](https://github.com/Unitech/pm2)
+
+1. 全局安装`pm2`
+
+    ```
+    npm install pm2 -g
+    ```
+
+2. 启动应用
+
+    ```
+    pm2 start app.js
+    ```
+
+# 参考资料
+
+1. 进程管理[PM2](https://github.com/Unitech/pm2)
+1. [Koa框架](https://github.com/koajs/koa)
